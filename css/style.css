@@ -1,0 +1,6 @@
+@import 'mobile.css';
+@import 'desktop.css';
+
+:root{
+    --colorGeneral: hsl(300, 43%, 22%);
+}

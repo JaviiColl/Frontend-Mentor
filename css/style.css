@@ -1,6 +1,47 @@
 @import 'mobile.css';
 @import 'desktop.css';
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
 
-:root{
+:root {
     --colorGeneral: hsl(300, 43%, 22%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+img{
+    border-radius: 50%;
+}
+p, h4{
+    font-size: 15px;
+}
+/* upper text // stars */
+h1{
+    font-size: 3em;
+    font-weight: 700;
+    color: var(--colorGeneral);
+}
+.subtitle{
+    color: hsl(303, 10%, 53%);
+}
+#estrellas{
+    color: var(--colorGeneral);
+}
+.nombres{
+    color: white;
+}
+.clientes{
+    color: hsl(333, 80%, 67%);
+}
+#comentario{
+    color: hsl(300, 24%, 96%);
+}
+li{
+    background-color: hsl(300, 24%, 96%);
+}
+.cajaVioleta{
+    background-color: var(--colorGeneral);
 }

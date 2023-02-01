@@ -1,20 +1,84 @@
-@media (min-width:800px){
+@media (min-width:800px) {
+    section {
+        padding: 8rem 10rem;
+        background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+        background-position: top left, bottom right;
+        background-repeat: no-repeat;
+    }
 
+    .boxOne {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 5rem;
 
+    }
 
+    .box1 {
+        width: 40%;
+        text-align: left;
 
+    }
 
+    .subtitle {
+        font-weight: 500;
+    }
 
+    .box2 {
+        width: 50%;
+    }
 
+    li {
+        margin: 1rem 0rem;
+        border-radius: .2rem;
+        width: 75%;
+        padding: 1rem 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: .5rem;
+    }
 
+    li img {
+        padding: 0rem 0.2rem 0 0.2rem;
+    }
 
+    .estrella2 {
+        position: relative;
+        left: 3rem;
+    }
 
+    .estrella3 {
+        position: relative;
+        left: 6rem;
+    }
 
+    .box3 {
+        display: flex;
+    }
 
+    .cajaVioleta {
+        border-radius: .5rem;
+        padding: 2rem;
+    }
 
+    .irene {
+        margin: 0 2rem;
+        position: relative;
+        top: 1rem;
+    }
 
+    .Anne {
+        position: relative;
+        top: 2rem;
+    }
 
+    .fotoPerfil {
+        width: 3vw;
+    }
 
-    
-    
+    .clientes {
+        font-weight: 400;
+    }
+
 }

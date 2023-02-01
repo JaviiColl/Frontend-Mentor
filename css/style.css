@@ -5,6 +5,7 @@
 :root {
     --colorGeneral: hsl(300, 43%, 22%);
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -12,36 +13,68 @@
     list-style: none;
     text-decoration: none;
 }
-img{
+
+img {
     border-radius: 50%;
 }
-p, h4{
+
+p,
+h4 {
     font-size: 15px;
 }
+
 /* upper text // stars */
-h1{
+h1 {
     font-size: 3em;
     font-weight: 700;
     color: var(--colorGeneral);
 }
-.subtitle{
+
+.subtitle {
     color: hsl(303, 10%, 53%);
+    margin-top: 1.5rem;
+    line-height: 1.3rem;
+    font-size: 1rem;
 }
-#estrellas{
+
+#estrellas {
     color: var(--colorGeneral);
 }
-.nombres{
+
+.nombres {
     color: white;
 }
-.clientes{
+
+.clientes {
     color: hsl(333, 80%, 67%);
 }
-#comentario{
+
+#comentario {
     color: hsl(300, 24%, 96%);
+    padding-top: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    font-size: 15px;
 }
-li{
+
+li {
     background-color: hsl(300, 24%, 96%);
 }
-.cajaVioleta{
+
+.cajaVioleta {
     background-color: var(--colorGeneral);
+}
+
+.order-box {
+    display: flex;
+    align-items: center;
+}
+
+.etiqueta {
+    height: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    margin-left: 1.3rem;
 }
